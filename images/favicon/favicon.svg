@@ -1,7 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" rx="112" fill="#0B0F16"/>
-  <g transform="translate(112 112) scale(8.9375)">
-    <path d="M3 3H20.5L29 11.5V29H3Z" fill="#F8FAFC"/>
-    <path fill-rule="evenodd" d="M10.2 9H16.6A7 7 0 0 1 16.6 23H10.2V9ZM13.3 12.3V19.7H16.6A3.7 3.7 0 0 0 16.6 12.3H13.3Z" fill="#0B0F16"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+ <defs>
+  <linearGradient id="hex" x1="0" y1="60" x2="0" y2="480" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9CE9FF"/><stop offset=".5" stop-color="#33A9F0"/><stop offset="1" stop-color="#1257D8"/></linearGradient>
+  <linearGradient id="dg" x1="0" y1="110" x2="0" y2="430" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#DFF5FF"/><stop offset=".45" stop-color="#3BB4F4"/><stop offset="1" stop-color="#0F53D0"/></linearGradient>
+ </defs>
+ <rect width="512" height="512" rx="116" fill="#0B0F16"/>
+ <g transform="translate(256 256) scale(6.7) translate(-33 -32)">
+  <path d="M9.6 18.5 L33 5 L56.4 18.5 L56.4 45.5 L33 59 L9.6 45.5 Z" fill="none" stroke="url(#hex)" stroke-width="3.8" stroke-linejoin="round"/>
+  <path fill="url(#dg)" fill-rule="evenodd" d="M18 14 H31 C41 14 47 22 47 32 C47 42 41 50 31 50 H18 Z M26 22 H31 C36 22 39 26 39 32 C39 38 36 42 31 42 H26 Z"/>
+ </g>
 </svg>
